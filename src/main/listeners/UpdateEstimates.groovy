@@ -1,11 +1,10 @@
-import com.atlassian.jira.component.ComponentAccessor;
-import com.atlassian.jira.jql.parser.JqlQueryParser;
-import com.atlassian.jira.issue.search.SearchProvider;
-import com.atlassian.jira.web.bean.PagerFilter;
-import com.atlassian.jira.component.ComponentAccessor;
-import com.atlassian.jira.issue.search.SearchQuery;
+import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.issue.ModifiedValue
+import com.atlassian.jira.issue.search.SearchProvider
+import com.atlassian.jira.issue.search.SearchQuery
 import com.atlassian.jira.issue.util.DefaultIssueChangeHolder
+import com.atlassian.jira.jql.parser.JqlQueryParser
+import com.atlassian.jira.web.bean.PagerFilter
 
 String jqlQuery = "project = TD"
 
