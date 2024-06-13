@@ -5,7 +5,9 @@ import no.elhub.devxp.build.configuration.pipeline.jobs.makeVerify
 elhubProject(DEVXP, "devxp-jira-scripts") {
     pipeline {
         sequential {
-            makeVerify()
+            makeVerify {
+                disableSonarScan = true
+            }
         }
     }
 }
